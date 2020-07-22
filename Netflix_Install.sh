@@ -13,5 +13,5 @@ sleep 5
 echo 'pi ALL=NOPASSWD:/bin/mount,/bin/umount,/sbin/losetup,/sbin/modprobe"' >> /etc/sudoers
 sleep 5
 
-wget -q -O plugin.video.netflix.zip https://github.com/emilsvennesson/script.module.inputstreamhelper/archive/master.zip
+wget -q -O script.module.inputstreamhelper.zip https://github.com/emilsvennesson/script.module.inputstreamhelper/archive/master.zip
 wget -q -O plugin.video.netflix.zip https://github.com/CastagnaIT/plugin.video.netflix/archive/master.zip
