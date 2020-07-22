@@ -12,7 +12,7 @@ sudo pip install -q pycryptodomex
 sudo apt-get install kodi
 sudo apt-get install kodi-inputstream-adaptive
 sleep 5
-//wget perm
+echo 'pi ALL=NOPASSWD:/bin/mount,/bin/umount,/sbin/losetup,/sbin/modprobe"' >> /etc/sudoers
 sleep 5
 
 wget -q -O plugin.video.netflix.zip https://github.com/emilsvennesson/script.module.inputstreamhelper/archive/master.zip
