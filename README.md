@@ -2,7 +2,9 @@ Work on Raspberry Pi OS (previously called Raspbian)
 
 
 wget -O install.sh https://raw.githubusercontent.com/Teknoist/Netflix_Install_Kodi/master/Netflix_Install.sh
+
 sudo chmod +x install.sh
+
 sudo ./install.sh
 
 And install Plugin plugin.video.netflix.zip and script.module.inputstreamhelper.zip with Kodi
